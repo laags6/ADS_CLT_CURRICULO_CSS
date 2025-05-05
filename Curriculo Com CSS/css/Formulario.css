@@ -14,7 +14,8 @@ section {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 5px 10px #678d40;
+    border: 1px #678d402f solid;
+    box-shadow: 5px px #678d40;
 
 }
 
@@ -34,7 +35,36 @@ label {
     margin-top: 12px;
 }
 
-select, textarea {
+
+input, select, textarea {
     width: 100%;
     padding-bottom: 10px;
+    margin: 5px ;
+    font-family: Montserrat, sans-serif;
+}
+
+.bolinha_input {
+    width: 30px;
+    accent-color: #678d40;
+}
+
+option {
+    font-family: Montserrat, sans-serif;
+}
+
+#botoes {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: Montserrat, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #b2f37288;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    margin: 0px 5px;
 }

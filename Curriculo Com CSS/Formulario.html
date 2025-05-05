@@ -42,8 +42,8 @@
                     <option value="portugues">Português (pt-br)</option>
                 </select>  
 
-                <label for="arquivo">Protótipo:</label>
-                <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx,.jpeg,.jpg,.png" required>
+                <label for="arquivo" class="Arquivo_label">Protótipo:</label>
+                <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx,.jpeg,.jpg,.png" class="Arquivo_input" required>
 
 
                 <label>Linguagens preferidas:</label>
@@ -54,10 +54,10 @@
                     <option value="python">Python</option>
                 </select>
 
-                <p>Tipo de banco de dados recomendado:</p>
-                <label><input type="radio" name="banco" value="mysql"required> MySQL</label>
-                <label><input type="radio" name="banco" value="postgres"> PostgreSQL</label>
-                <label><input type="radio" name="banco" value="mongodb"> MongoDB</label>
+                <p>Tipo de banco de dados:</p>
+                <label><input type="radio" name="banco" value="mysql"required class="bolinha_input"> MySQL</label>
+                <label><input type="radio" name="banco" value="postgres" class="bolinha_input"> PostgreSQL</label>
+                <label><input type="radio" name="banco" value="mongodb" class="bolinha_input"> MongoDB</label>
             </fieldset>
 
 
@@ -78,9 +78,9 @@
                 <input type="date" id="data" name="data" required>
             </fieldset>
 
-            <div id="AreaBotoes">
-                <button type="reset" class="botao">Limpar</button>
-                <button type="submit" class="botao">Enviar</button>
+            <div id="botoes">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
             </div>
 
         </form>
